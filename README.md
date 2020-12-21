@@ -11,8 +11,8 @@ MySQL
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|
 |   [`iniFCap()`](https://github.com/victorluissantos/mysql/blob/main/functions/iniFCap.sql)    |           	`VARCHAR(250)`                   |    `SELECT initCap('victor');`            |      `Victor`           |
 |   [`iniCap()`](https://github.com/victorluissantos/mysql/blob/main/functions/initCap.sql)     |             `VARCHAR(250)`                   |    `SELECT initCap('victor luis');`       |      `Victor Luis`      |
-| `moneyFormat()`  | `String(22)` `Decimal(22,2)`, `String(2)`    |    `SELECT moneyFormat(2020.12,'$');`     |      `$2.020,12`        |
-|   `pasTimer()`   |                 `DateTime`                   |  `SELECT pasTimer('2020-12-21 18:30:15')` |      `1h`               |
+|[`moneyFormat()`](https://github.com/victorluissantos/mysql/blob/main/functions/moneyFormat.sql) | `String(22)` `Decimal(22,2)`, `String(2)`    |    `SELECT moneyFormat(2020.12,'$');`     |      `$2.020,12`        |
+|  [`pasTimer()`](https://github.com/victorluissantos/mysql/blob/main/functions/pasTimer.sql)  |                 `DateTime`                   |  `SELECT pasTimer('2020-12-21 18:30:15')` |      `1h`               |
 
 
 

@@ -14,7 +14,9 @@ MySQL
 |[`moneyFormat()`](https://github.com/victorluissantos/mysql/blob/main/functions/moneyFormat.sql) | `String(22)` `Decimal(22,2)`, `String(2)`    |    `SELECT moneyFormat(2020.12,'$');`     |      `$2.020,12`        |
 |  [`pasTimer()`](https://github.com/victorluissantos/mysql/blob/main/functions/pasTimer.sql)  |                 `DateTime`                   |  `SELECT pasTimer('2020-12-21 18:30:15')` |      `1h`               |
 
-
+|  Stored Procedures name   |                 Parameters                   |               Example of use              |      Result\Return      |
+|------------------|----------------------------------------------|-------------------------------------------|-------------------------|
+|   [`relocatedId()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/relocatedId.sql)    |           	`VARCHAR(250)`                   |    `CALL relocatedId('depoiments');`            |                 |
 
 ## How run
 1. You can Download to MySQL 5.6Version with Workbench in:<br/>

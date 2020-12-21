@@ -16,7 +16,7 @@ MySQL
 
 |  Stored Procedures name   |                 Parameters                   |               Example of use              |      Result\Return      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|
-|   [`relocatedId()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/relocatedId.sql)    |           	`VARCHAR(250)`                   |    `CALL relocatedId('depoiments');`            |                 |
+|   [`relocatedId()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/relocatedId.sql)    |           	`VARCHAR(250)`                   |    `CALL relocatedId('users');`            |                 |
 
 ## How run
 1. You can Download to MySQL 5.6Version with Workbench in:<br/>

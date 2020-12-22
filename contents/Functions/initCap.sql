@@ -1,6 +1,5 @@
-delimiter $$
-
-CREATE DEFINER=`root`@`%` FUNCTION `initcap`(nome VARCHAR(250)) RETURNS varchar(250) CHARSET utf8 COLLATE utf8_bin
+DELIMITER ;;
+CREATE FUNCTION `initcap`(nome VARCHAR(250)) RETURNS varchar(250)
 BEGIN
     DECLARE qtd_caracteres INT DEFAULT 0;
     DECLARE indice INT DEFAULT 1;
@@ -85,5 +84,5 @@ BEGIN
     END WHILE;
 
 RETURN frase;
-END$$
-
+END ;;
+DELIMITER ;

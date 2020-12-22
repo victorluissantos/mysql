@@ -11,11 +11,11 @@ This project provides several functions and stored procedures for applications t
 
 |  Function name   |                 Parameters                   |               Example of use              |      Result\Return      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|
-|   [`iniFCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/functions/iniFCap.sql)    |           	`VARCHAR(250)`                   |    `SELECT initCap('victor');`            |      `Victor`           |
-|   [`iniCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/functions/initCap.sql)     |             `VARCHAR(250)`                   |    `SELECT initCap('victor luis');`       |      `Victor Luis`      |
-|[`moneyFormat()`](https://github.com/victorluissantos/mysql/blob/main/contents/functions/moneyFormat.sql) | `String(22)` `Decimal(22,2)`, `String(2)`    |    `SELECT moneyFormat(2020.12,'$');`     |      `$2.020,12`        |
-|  [`shortName()`](https://github.com/victorluissantos/mysql/blob/main/contents/functions/shortName.sql)  |                 `VARCHAR(250)`                   |  `SELECT shortName('Victor Luis Santos')` |      `Victor L. Santos`               |
-|  [`pasTimer()`](https://github.com/victorluissantos/mysql/blob/main/contents/functions/pasTimer.sql)  |                 `DateTime`                   |  `SELECT pasTimer('2020-12-21 18:30:15')` |      `1h`               |
+|   [`iniFCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/iniFCap.sql)    |           	`VARCHAR(250)`                   |    `SELECT initCap('victor');`            |      `Victor`           |
+|   [`iniCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/initCap.sql)     |             `VARCHAR(250)`                   |    `SELECT initCap('victor luis');`       |      `Victor Luis`      |
+|[`moneyFormat()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/moneyFormat.sql) | `String(22)` `Decimal(22,2)`, `String(2)`    |    `SELECT moneyFormat(2020.12,'$');`     |      `$2.020,12`        |
+|  [`shortName()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/shortName.sql)  |                 `VARCHAR(250)`                   |  `SELECT shortName('Victor Luis Santos')` |      `Victor L. Santos`               |
+|  [`pasTimer()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/pasTimer.sql)  |                 `DateTime`                   |  `SELECT pasTimer('2020-12-21 18:30:15')` |      `1h`               |
 
 |  Stored Procedures name   |                 Parameters                   |               Example of use              |      Result\Return      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|

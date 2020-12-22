@@ -8,6 +8,7 @@ This project provides several functions and stored procedures for applications t
 ![](https://img.shields.io/badge/MySQL-5.6-blue)
 ![https://tawk.to/chat/5afad6f35f7cdf4f05343d7e/default](https://img.shields.io/badge/Need%20help-tawk.to-%2350B648)
 
+[Documentation](https://victorluissantos.github.io/mysql/)
 
 |  Function name   |                 Parameters                   |               Example of use              |      Result\Return      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|

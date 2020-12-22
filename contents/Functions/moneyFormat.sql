@@ -1,6 +1,6 @@
 delimiter $$
 
-CREATE FUNCTION `money_format`(
+CREATE FUNCTION `moneyFormat`(
 								pvalor DECIMAL(22,2), 
 								cs_decimal INT(11), 
 								separador CHAR(1), 

@@ -9,7 +9,7 @@ This project provides several functions and stored procedures for applications t
 ![https://tawk.to/chat/5afad6f35f7cdf4f05343d7e/default](https://img.shields.io/badge/Need%20help-tawk.to-%2350B648)
 
 
-|  Function name   |                 Parameters                   |               Example of use              |      Result\Return      |
+|  Nome da Função   |                 Parâmetros                   |               Exemplo de uso              |      Retorno      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|
 |   [`iniFCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/iniFCap.sql)    |           	`VARCHAR(250)`                   |    `SELECT initCap('victor');`            |      `Victor`           |
 |   [`iniCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/initCap.sql)     |             `VARCHAR(250)`                   |    `SELECT initCap('victor luis');`       |      `Victor Luis`      |
@@ -22,12 +22,12 @@ This project provides several functions and stored procedures for applications t
 |   [`relocatedId()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/relocatedId.sql)    |           	`VARCHAR(250)`                   |    `CALL relocatedId('users');`            | Antes: `SELECT MAX(id) FROM <your_table>` Return: 190<br>Depois: `SELECT MAX(id) FROM <your_table>` Return: 140 |
 
 ## How run
-1. You can Download to MySQL 5.6Version with Workbench in:<br/>
+1. Você deve baixar a verao 5.6 do MySQL com Workbench, ambos disponíveis em:<br/>
 [Download](https://dev.mysql.com/downloads/mysql/5.6.html)<br/>
-or if you using Windows:<br/>
+Ou caso queira link alternativo:<br/>
 [Download windows](https://dev.mysql.com/downloads/windows/installer/5.6.html)
 
 ## Acknowledgment
-I made this repository to commemorate the conquest of MySQL Linkedin certificate that could
+Eu fiz este "Repo" em comemoração a aprovação no conquista do teste de competência  em MySQL do Linkedin
 
 [![connect-linkedin](https://user-images.githubusercontent.com/6771025/102895734-fe9afd80-4443-11eb-9174-cd257647c53a.jpg)](https://www.linkedin.com/in/victor-luis-santos/)

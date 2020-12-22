@@ -29,3 +29,5 @@ or if you using Windows:<br/>
 
 ## Acknowledgment
 I made this repository to commemorate the conquest of MySQL Linkedin certificate that could
+
+[![connect-linkedin](https://user-images.githubusercontent.com/6771025/102895734-fe9afd80-4443-11eb-9174-cd257647c53a.jpg)](https://www.linkedin.com/in/victor-luis-santos/)

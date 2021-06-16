@@ -3,6 +3,7 @@
  * @param tableName, nome da tabela que possui a coluna que deseja remover os duplicados
  * @param collumName, nome da coluna que deseja remover os duplicados
 */
+DELIMITER $$
 CREATE PROCEDURE `removeDouble`(tableName VARCHAR(120), collumName VARCHAR(120))
 BEGIN
 	DECLARE numLimit INT(11);
@@ -47,4 +48,6 @@ BEGIN
         SET ind_rows = ind_rows+1;
     END WHILE;
     DROP TEMPORARY TABLE IF EXISTS TEMP_ROWS;
-END
+END$$
+
+DELIMITER ;

@@ -4,6 +4,7 @@
  * @param param_column_name, nome da coluna que deseja criptografar na tabela informada no parametro anterior
  * @param method, nome do metodo de criptigrafia que desaja aplicar, disponiveis: MD5, SHA ou SHA1
 */
+DELIMITER $$
 CREATE PROCEDURE `criptoFields`(param_table_name VARCHAR(35), param_column_name VARCHAR(35), method VARCHAR(4))
 BEGIN
     DECLARE valid INT(11) DEFAULT NULL;
@@ -71,4 +72,6 @@ BEGIN
     ELSE
         SELECT CONCAT('Tabela:',@tablename,' inexistente no Scheme(atual):',@schemename) as `retorno`;
     END IF;
-END
+END$$
+
+DELIMITER ;

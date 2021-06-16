@@ -20,10 +20,9 @@ This project provides several functions and stored procedures for applications t
 
 |  Stored Procedures name   |                 Parameters                   |               Example of use              |      Result\Return      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|
-|   [`relocatedId()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/relocatedId.sql)    |           	`VARCHAR(250)`                   |    `CALL relocatedId('users');`            | Antes: `SELECT MAX(id) FROM <your_table>` Return: 190<br>Depois: `SELECT MAX(id) FROM <your_table>` Return: 140 |
-<<<<<<< HEAD
-|   [`criptoFields()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/criptoFields.sql)    |           	`VARCHAR(250)`                   |    `CALL criptoFields('users','senha','MD5');`            | `SELECT senha FROM user` Antes: 123456<br>Depois: 'e10adc3949ba59abbe56e057f20f883e' |
-|   [`removeDouble()`](https://github.com/victorluissantos/mysql/blob/main/Stored-Procedures/removeDouble.sql)    |           	`VARCHAR(250)`                   |    `CALL removeDouble('products','name');`            | `SELECT COUNT(t.total) AS `total_repetidos` FROM (SELECT COUNT(name) AS `total`, name FROM products GROUP BY name) t WHERE t.total>1` Antes: 1<br>Depois: 0 |
+|   [`relocatedId()`](https://github.com/victorluissantos/mysql/blob/main/contents/Stored-Procedures/relocatedId.sql)    |           	`VARCHAR(250)`                   |    `CALL relocatedId('users');`            | Antes: `SELECT MAX(id) FROM <your_table>` Return: 190<br>Depois: `SELECT MAX(id) FROM <your_table>` Return: 140 |
+|   [`criptoFields()`](https://github.com/victorluissantos/mysql/blob/main/contents/Stored-Procedures/criptoFields.sql)    |           	`VARCHAR(250)`                   |    `CALL criptoFields('users','senha','MD5');`            | `SELECT senha FROM user` Antes: 123456<br>Depois: 'e10adc3949ba59abbe56e057f20f883e' |
+|   [`removeDouble()`](https://github.com/victorluissantos/mysql/blob/main/contents/Stored-Procedures/removeDouble.sql)    |           	`VARCHAR(250)`                   |    `CALL removeDouble('products','name');`            | `SELECT COUNT(t.total) AS `total_repetidos` FROM (SELECT COUNT(name) AS `total`, name FROM products GROUP BY name) t WHERE t.total>1` Antes: 1<br>Depois: 0 |
 
 ## How run
 1. You can Download to MySQL 5.6Version with Workbench in:<br/>

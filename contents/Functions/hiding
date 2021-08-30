@@ -1,0 +1,22 @@
+DELIMITER $$
+CREATE FUNCTION `hiding`(cchav VARCHAR(120), mask VARCHAR(1), init INT(11), endy INT(11)) RETURNS varchar(120) CHARSET latin1
+BEGIN
+	DECLARE response VARCHAR(120) DEFAULT '';
+    DECLARE i INT DEFAULT 1;
+	WHILE i <= LENGTH(cchav) DO
+		
+        IF i > init AND i < endy THEN
+			IF substr(cchav, i,1) = ' ' THEN
+				SET response = CONCAT(response, ' ');
+            ELSE
+				SET response = CONCAT(response, mask);
+			END IF;
+		ELSE
+			SET response = CONCAT(response,substr(cchav, i,1));
+        END IF;
+        SET i = i+1;
+    END WHILE;
+RETURN response;
+END
+END$$
+DELIMITER ;

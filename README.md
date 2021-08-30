@@ -13,6 +13,7 @@ This project provides several functions and stored procedures for applications t
 |  Function name   |                 Parameters                   |               Example of use              |      Result\Return      |
 |------------------|----------------------------------------------|-------------------------------------------|-------------------------|
 |   [`iniFCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/iniFCap.sql)    |           	`VARCHAR(250)`                   |    `SELECT initCap('victor');`            |      `Victor`           |
+|   [`hiding()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/hiding.sql)    |           	`VARCHAR(120)`,`VARCHAR(1)`,`INT(11)`,`INT(11)`      |    `SELECT hiding('4290 8930 5632','*',2,12);`            |      `42** **** **32`           |
 |   [`iniCap()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/initCap.sql)     |             `VARCHAR(250)`                   |    `SELECT initCap('victor luis');`       |      `Victor Luis`      |
 |[`moneyFormat()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/moneyFormat.sql) | `String(22)` `Decimal(22,2)`, `String(2)`    |    `SELECT moneyFormat(2020.12,'$');`     |      `$2.020,12`        |
 |  [`shortName()`](https://github.com/victorluissantos/mysql/blob/main/contents/Functions/shortName.sql)  |                 `VARCHAR(250)`                   |  `SELECT shortName('Victor Luis Santos')` |      `Victor L. Santos`               |
